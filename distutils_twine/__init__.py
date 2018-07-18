@@ -3,7 +3,7 @@
 from distutils.cmd import Command
 from pathlib import Path
 
-class twineupload(Command):
+class release(Command):
     description = "use Twine to upload your package."
     # TODO: Allow specifying +dist+ directory.
     user_options = []
