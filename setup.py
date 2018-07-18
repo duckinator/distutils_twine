@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
 import setuptools
-from distutils_twine import UploadCommand
+from distutils_twine import twineupload
 
-setuptools.setup(cmdclass={"release": UploadCommand})
+setuptools.setup(cmdclass={"release": twineupload})
