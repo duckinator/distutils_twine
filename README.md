@@ -23,7 +23,7 @@ If you use `setup.py` exclusively, add the following to it:
 
 ```python
 import setuptools
-from distutils_twine import UploadCommand
+from distutils_twine import release
 
-setuptools.setup(cmdclass={"release": UploadCommand})
+setuptools.setup(cmdclass={"release": release})
 ```
