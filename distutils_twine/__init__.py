@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from distutils.cmd import Command
 from pathlib import Path
 
